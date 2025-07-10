@@ -39,3 +39,9 @@ Pointage : permet d’enregistrer les heures d’entrée/sortie chaque jour, p
 Repas : chaque repas pris peut être enregistré, avec le type (déjeuner, goûter…) et le tarif.
 
 FichePaie : regroupe chaque mois le total des heures normales, des heures supplémentaires, des repas, et calcule le montant total à facturer.
+
+## State of Flutter application:
+
+For now, the current state of the application is the basic Flutter version.
+
+![Flutter App Demo](assets/demo/flutter1.png)
