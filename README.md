@@ -7,7 +7,27 @@ $ cd app_assist_child
 Choice version:
 
 ``` 
-$ flutter run (chrome version 2)
-$ flutter run -d chrome
-$ flutter run -d android
+$ flutter run 
+$ flutter run -d chrome (http://localhost:55424/)
+$ flutter run -d android  
 ```
+
+``` 
+# flutter emulators 
+# flutter doctor
+``` 
+
+Install command line tool: (on Android Studio:  Settings → Appearance & Behavior → System Settings → Android SDK, SDK Tools & check Android SDK Command-line Tools (latest) )
+
+``` 
+flutter doctor --android-licenses
+``` 
+
+### Emulate with android: 
+
+$ flutter emulators // Display emulators available (need android studio)
+$ flutter emulators --launch Medium_Phone_API_36.0 // Run emulators
+$ flutter devices // List device
+
+$ flutter run -d android
+$ flutter run -d emulator-5554
